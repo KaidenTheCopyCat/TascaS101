@@ -6,7 +6,6 @@ public class Cotxe {
 	private String marca, model;
 	
 	public Cotxe(float potencia, String marca, String model) {
-		super();
 		this.potencia = potencia;
 		this.marca = marca;
 		this.model = model;
