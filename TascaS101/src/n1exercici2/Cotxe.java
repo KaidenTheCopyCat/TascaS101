@@ -2,13 +2,13 @@ package n1exercici2;
 
 public class Cotxe {
 
-	private float potencia;
-	private String marca, model;
+	private final float potencia;
+	private static String model;
+	private static final String marca = "Ford";
 	
-	public Cotxe(float potencia, String marca, String model) {
+	public Cotxe(float potencia, String model) {
 		this.potencia = potencia;
-		this.marca = marca;
-		this.model = model;
+		this.model = model; // canviara el model de tots els objectes cotxes creats al ultim objecte creat
 	}
 
 	public float getPotencia() {

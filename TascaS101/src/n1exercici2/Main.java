@@ -6,7 +6,7 @@ public class Main {
 			
 		Cotxe.frenar();
 		
-		Cotxe cotxe1 = new Cotxe(500, "Ford", "Focus");
+		Cotxe cotxe1 = new Cotxe(500, "Focus");
 		
 		cotxe1.accelerar();
 
